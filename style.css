@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #002332;
+    /*below css done by me
+    background: rgb(5,1,68);
+    background: linear-gradient(105deg, rgb(27, 125, 230) 0%, rgba(18,18,144,1) 33%, rgb(71, 162, 61) 100%);*/
+    font-family: Ubuntu ,'cursive';
+}
+
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: #a6b5bf;
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 10px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-size: 20px;
+}
+.label{
+    user-select: none;
+}
+#btn{
+    width: 98%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #003264;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+   
+}
+#btn:hover{
+    cursor: pointer;
+    transition: 400ms;
+    transform: scale(1.04);
+}
+#pass-box{
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 450;
+    border-radius: 7px;
+    margin-bottom:10px ;
+}
+#instruction{
+    padding-top: 10px;
+    margin-right: 12px;
+    font-weight:450;
+    font-size:small;
+}
+#title2{
+    text-decoration:underline;
+    color: #003264;
+}
+
+#pass-box {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+img {
+    margin-left: auto; /* Push the image to the right */
+    height: 40px;
+    margin-bottom: 20px;
+}
+img:hover{
+    cursor: pointer;
+    transition: 200ms;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+.main {
+    background-color: #3498db;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: #2980b9;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    user-select: none;
+}
+
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+} */
